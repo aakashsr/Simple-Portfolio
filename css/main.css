@@ -1,0 +1,216 @@
+/*****************************************
+GENERAL
+******************************************/
+
+body{
+    font-family: 'Lato' , sans-serif;
+    color: #999;
+    font-size: 16px;
+}
+
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #05386b;;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Changa One' , sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: .8em;
+
+}
+
+h2{
+    font-size: .75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+h3{
+    margin: 0 0 1em 0 ;
+}
+
+
+/*****************************************
+HEADER
+******************************************/
+
+header{
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    float: left;
+    width: 100%;
+}
+
+
+#logo{
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/*****************************************
+NAVIGATION
+******************************************/
+
+
+nav{
+    text-align: center;
+    padding: 10px 0 ;
+    margin: 15px 0 0;
+}
+
+nav ul{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-family: "Changa One" , sans-serif;
+    margin: 0;
+    padding: 10px 15px ;
+}
+
+
+/*****************************************
+FOOTER
+******************************************/
+
+footer{
+    font-size: .75em;
+    padding-top: 50px;
+    color: #ccc;
+    text-align: center;
+    clear: both;
+}
+
+.social-media{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+
+
+/*****************************************
+PORTFOLIO
+******************************************/
+
+#gallery{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#gallery li{
+    width: 45%;
+    margin: 2.5%;
+    float: left;
+    color: #bdc3c7;
+    background-color: #f5f5f5;
+}
+
+#gallery li a p{
+    margin : 0;
+    padding: 5%;
+    color: #bdc3c7;
+    font-size: .75rem;
+}
+
+
+
+
+/*****************************************
+ABOUT
+******************************************/
+
+
+.profile-photo{
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+
+/*****************************************
+CONTACT
+******************************************/
+
+.contact-info{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+    font-size: .9em;
+}
+
+
+.contact-info a{
+    display: block;
+    background-repeat: no-repeat;       /* By default , every bg-image repeat */
+    min-height: 20px;           /* Size of icons */
+    background-size: 20px 20px;     /* Size of icons */
+    padding: 0 0 0 30px;
+    margin: 0 0 15px ;          /* To give room between the links */
+}
+
+.contact-info li.phone a{
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a{
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.github a{
+    background-image: url('../img/twitter.png');
+}
+
+
+/*****************************************
+COLORS
+******************************************/
+
+body{
+    background-color: #fff;
+}
+
+header{
+    background-color: #5cdb95;
+}
+
+h1,h2{
+    color: #05386b;
+}
+
+header nav{
+    background: #8ee4af;
+}
+
+header nav a:visited{
+    color: #05386b;
+}
+
+
+nav .selected,
+nav a:hover{
+    color:#fff;
+}
